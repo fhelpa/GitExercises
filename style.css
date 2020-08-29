@@ -6,7 +6,8 @@
 
 #section1,
 #section2,
-#section3 {
+#section3,
+#section4 {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -24,6 +25,10 @@
 
 #section3 {
     background-color: rgb(41, 4, 77);
+}
+
+#section4 {
+    background-color: rgb(37, 56, 2);
 }
 
 h1{
@@ -55,4 +60,8 @@ p, i{
 #section3 h1:hover{
   color: #984dec;
 }
+
+#section3 h1:hover{
+    color: #8cff82;
+  }
 
