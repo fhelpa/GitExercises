@@ -30,6 +30,12 @@ h1{
     font-size: 3rem;
     font-family: helvetica;
     font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.s1{
+  position: relative;
+  transition: all 0.5s ease;
 }
 
 p, i{
@@ -43,3 +49,14 @@ p, i{
     color: lightgrey;
 }
 
+#section1 h1:hover{
+  color: #828A95;
+}
+
+#section2 h1:hover{
+  color: #79B473;
+}
+
+#section3 h1:hover{
+  color: #FFEAD0;
+}
