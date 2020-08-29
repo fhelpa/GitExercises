@@ -33,11 +33,6 @@ h1{
     transition: all 0.3s ease;
 }
 
-.s1{
-  position: relative;
-  transition: all 0.5s ease;
-}
-
 p, i{
     font-size: 1.5rem;
     font-family: helvetica;
