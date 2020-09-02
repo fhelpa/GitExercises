@@ -41,12 +41,17 @@ body{
     align-items: center;
 }
 
-#navb > a{
+#navb > a,
+#getIt{
     color: white;
     font-size: 1.5rem;
     text-decoration: none;
     font-family: helvetica;
     font-weight: bold;
+}
+
+#getIt:hover{
+    color: rgb(179, 255, 0);
 }
 
 .navLinks{
@@ -74,11 +79,6 @@ body{
 
 .navLinks a:hover{
     color: rgb(204, 204, 204);
-}
-
-#gitLogo{
-    width: 80px;
-    height: auto;
 }
 
 
