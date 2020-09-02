@@ -122,6 +122,25 @@ body{
     margin-bottom: 1rem;;
 }
 
+#foot{
+    min-height: 3vh;
+    background-color:rgb(27, 27, 27);
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+#foot p{
+    font-size: .8rem;
+    font-family: helvetica;
+    font-weight: bold; 
+    color: rgb(119, 119, 119);
+}
+
 h1{
     font-size: 4rem;
     font-family: helvetica;
