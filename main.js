@@ -13,12 +13,12 @@ var tl = new TimelineLite({delay: '0.3', clearProps: 'all'})
     var testi = new Array();
 
     // modifica qui
-    modificaColori(22,23,"#CEEAF7","#FFF"); // dalle 22 alle 23
-    modificaColori(0,5,"#DCB8CB","#FFF"); // dalle 00 alle 05
-    modificaColori(6,8,"#E5D352","#FFF"); // dalle 06 alle 08
-    modificaColori(9,12,"#AC3931","#FFF"); // dalle 09 alle 12
-    modificaColori(13,17,"#482C3D","#FFF"); // dalle 13 alle 17
-    modificaColori(18,21,"#DDA3B2","#FFF"); // dalle 18 alle 21
+    modificaColori(22,23,"#100B1E","#fafffc"); // dalle 22 alle 23
+    modificaColori(0,5,"#191716","#fafffc"); // dalle 00 alle 05
+    modificaColori(6,8,"#BE7C4D","#161717"); // dalle 06 alle 08
+    modificaColori(9,12,"#F67E7D","#161717"); // dalle 09 alle 12
+    modificaColori(13,17,"#9FA4C4","#161717"); // dalle 13 alle 17
+    modificaColori(18,21,"#160F29","#fafffc"); // dalle 18 alle 21
     //fine modifica
 
     function modificaColori(oraInizio, oraFine, colore, testo){
