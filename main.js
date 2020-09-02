@@ -11,6 +11,8 @@ var tl = new TimelineLite({delay: '0.3', clearProps: 'all'})
     var ore = new Date().getHours();
     var colori = new Array();
     var testi = new Array();
+    var colore = "";
+    var testo = "";
 
     // modifica qui
     modificaColori(22,23,"#100B1E","#fafffc"); // dalle 22 alle 23
@@ -35,4 +37,5 @@ var tl = new TimelineLite({delay: '0.3', clearProps: 'all'})
     testi[i] = testo;
     }
 
-    document.write("<style> #section1{background-color: "+colori[ore]+"}  #section1 h1,#section1 p{color: "+testi[ore]+"}  </style>");
+    document.write("<style> #section1{background-color: "+colori[ore]+";} </style>");
+    document.write("<style> #section1 h1,#section1 p{color: "+testi[ore]+";} </style>");
