@@ -7,7 +7,8 @@
 #section1,
 #section2,
 #section3,
-#section4 {
+#section4,
+#section5 {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -18,7 +19,8 @@
 #navb {
     height: 6vh;
     background-color: black;
-    position: fixed;
+    position: sticky;
+    top: 0;
     width: 100%;
     z-index: 10;
     display: flex;
@@ -48,8 +50,16 @@
     background-color: rgb(27, 27, 27);
 }
 
+#section5 {
+    background-color: rgb(0, 0, 0);
+}
+
+.section h1{
+    margin-bottom: 1rem;;
+}
+
 h1{
-    font-size: 3rem;
+    font-size: 4rem;
     font-family: helvetica;
     font-weight: bold;
     transition: all 0.3s ease;
@@ -62,11 +72,11 @@ p, i{
 }
 
 
-#whiteTitle, #whitePar{
+#whiteTitle, .whitePar{
     color: lightgrey;
 }
 
-#section1 h1:hover{
+/*#section1 h1:hover{
   color: #206bd4;
 }
 
@@ -80,5 +90,5 @@ p, i{
 
 #section3 h1:hover{
     color: #8cff82;
-  }
+  }*/
 
