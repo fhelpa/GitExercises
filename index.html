@@ -8,14 +8,31 @@
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
 </head>
 <body>
+<div class="container">
     <section id="section1" class="section">
         <h1>Hello!</h1>
-        <p>Git study by Matteo and Davide</p>
+        <p>Git commands archive by Matteo and Davide</p>
+       <a id="downArrow" href="#section2">🡫</a>
+
     </section>
 
     <nav id="navb">
-        <a href=""><h1>Git study</h1></a>
-        <i class="em em-nerd_face" aria-role="presentation" aria-label="NERD FACE"></i>
+       <a href="#section1">Git study.</a>
+        <ul class="navLinks">
+            <li>
+                <a href="#section2">Initialization</a>
+            </li>
+            <li>
+                <a href="#section3">Cloning and Pulling</a>
+            </li>
+            <li>
+                <a href="#section4">Git Juice</a>
+            </li>
+            <li>
+                <a href="#section5">Branches</a>
+            </li>
+        </ul>
+        <a href="https://git-scm.com/" target="_blank"><img id="gitLogo" src="images/gitLogo.png" alt="gitLogo"></a>
         </nav>
 
     <section id="section2" class="section">
@@ -35,7 +52,7 @@
     </section>
 
     <section id="section4" class="section">
-        <h1 class="whitePar">Git juice</h1>
+        <h1 class="whitePar">Git Juice</h1>
         <p class="whitePar">$: git status</p>
         <p class="whitePar">$: git add fineName(or --all)</p>
         <p class="whitePar">$: git commit -m "yourComment"</p>
@@ -48,6 +65,7 @@
         <p class="whitePar">$: git checkout branchName</p>
         <p class="whitePar">$: git merge branchName</p>
     </section>
+</div>
 
 
 

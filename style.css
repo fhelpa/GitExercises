@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+body{
+    height: 100vh;   <!-- ESSENZIALE PER SMOOTH SCROLLING-->
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll; 
+    scroll-behavior: smooth;     <!-- SMOOTH SCROLLING-->
+}
+
 #section1,
 #section2,
 #section3,
@@ -16,8 +27,9 @@
     align-items: center;
 }
 
+
 #navb {
-    height: 6vh;
+    min-height: 6vh;
     background-color: black;
     position: sticky;
     top: 0;
@@ -29,13 +41,65 @@
     align-items: center;
 }
 
-#navb h1 {
+#navb > a{
     color: white;
-    font-size: 1rem;;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family: helvetica;
+    font-weight: bold;
 }
 
+.navLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 30%;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navLinks li{
+    list-style: none;
+}
+
+.navLinks a{
+    margin: 0px;
+    color: grey;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: helvetica;
+    font-weight: bold;
+    transition: color .5s;
+}
+
+.navLinks a:hover{
+    color: rgb(204, 204, 204);
+}
+
+#gitLogo{
+    width: 80px;
+    height: auto;
+}
+
+
+#downArrow{
+    color: lightgrey;
+    text-decoration: none;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 40rem;
+    transition: color .5s;
+}
+
+#downArrow:hover{
+    color: black;
+}
+
+
+
 #section1 {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(240, 240, 240);
+    position: relative;
 }
 
 #section2 {
@@ -76,19 +140,4 @@ p, i{
     color: lightgrey;
 }
 
-/*#section1 h1:hover{
-  color: #206bd4;
-}
-
-#section2 h1:hover{
-  color: #fd9c41;
-}
-
-#section3 h1:hover{
-  color: #984dec;
-}
-
-#section3 h1:hover{
-    color: #8cff82;
-  }*/
 
