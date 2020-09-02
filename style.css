@@ -53,7 +53,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 30%;
+    width: 50%;
     align-items: center;
     text-decoration: none;
 }
@@ -99,7 +99,7 @@ body{
 
 #section1 {
     background-color: rgb(240, 240, 240);
-    position: relative;
+    position: relative;                          <!-- ESSENZIALE PER LA FRECCIA INIZIALE -->
 }
 
 #section2 {
@@ -141,3 +141,18 @@ p, i{
 }
 
 
+
+
+@media screen and (max-width: 992px){
+    .navLinks{
+        display: none;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+}
